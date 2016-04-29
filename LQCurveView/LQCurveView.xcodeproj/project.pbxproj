@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7C7B4C21CD336DA006F5927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4C11CD336DA006F5927 /* main.m */; };
+		D7C7B4C51CD336DA006F5927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4C41CD336DA006F5927 /* AppDelegate.m */; };
+		D7C7B4C81CD336DA006F5927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4C71CD336DA006F5927 /* ViewController.m */; };
+		D7C7B4CB1CD336DA006F5927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B4C91CD336DA006F5927 /* Main.storyboard */; };
+		D7C7B4CD1CD336DA006F5927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B4CC1CD336DA006F5927 /* Assets.xcassets */; };
+		D7C7B4D01CD336DA006F5927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C7B4CE1CD336DA006F5927 /* LaunchScreen.storyboard */; };
+		D7C7B4DB1CD336DA006F5927 /* LQCurveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4DA1CD336DA006F5927 /* LQCurveViewTests.m */; };
+		D7C7B4E61CD336DA006F5927 /* LQCurveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4E51CD336DA006F5927 /* LQCurveViewUITests.m */; };
+		D7C7B4F61CD33852006F5927 /* LQCurveItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4F51CD33852006F5927 /* LQCurveItemView.m */; };
+		D7C7B4F91CD33862006F5927 /* LQCurveMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4F81CD33862006F5927 /* LQCurveMainView.m */; };
+		D7C7B4FC1CD3388B006F5927 /* LQCurveMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7B4FB1CD3388B006F5927 /* LQCurveMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C7B4D71CD336DA006F5927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C7B4B51CD336DA006F5927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C7B4BC1CD336DA006F5927;
+			remoteInfo = LQCurveView;
+		};
+		D7C7B4E21CD336DA006F5927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C7B4B51CD336DA006F5927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C7B4BC1CD336DA006F5927;
+			remoteInfo = LQCurveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7C7B4BD1CD336DA006F5927 /* LQCurveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQCurveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7B4C11CD336DA006F5927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7C7B4C31CD336DA006F5927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7C7B4C41CD336DA006F5927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7C7B4C61CD336DA006F5927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7C7B4C71CD336DA006F5927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7C7B4CA1CD336DA006F5927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C7B4CC1CD336DA006F5927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7C7B4CF1CD336DA006F5927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7C7B4D11CD336DA006F5927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C7B4D61CD336DA006F5927 /* LQCurveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQCurveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7B4DA1CD336DA006F5927 /* LQCurveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCurveViewTests.m; sourceTree = "<group>"; };
+		D7C7B4DC1CD336DA006F5927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C7B4E11CD336DA006F5927 /* LQCurveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQCurveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7B4E51CD336DA006F5927 /* LQCurveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQCurveViewUITests.m; sourceTree = "<group>"; };
+		D7C7B4E71CD336DA006F5927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C7B4F41CD33852006F5927 /* LQCurveItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCurveItemView.h; sourceTree = "<group>"; };
+		D7C7B4F51CD33852006F5927 /* LQCurveItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCurveItemView.m; sourceTree = "<group>"; };
+		D7C7B4F71CD33862006F5927 /* LQCurveMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCurveMainView.h; sourceTree = "<group>"; };
+		D7C7B4F81CD33862006F5927 /* LQCurveMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCurveMainView.m; sourceTree = "<group>"; };
+		D7C7B4FA1CD3388B006F5927 /* LQCurveMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCurveMenuView.h; sourceTree = "<group>"; };
+		D7C7B4FB1CD3388B006F5927 /* LQCurveMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCurveMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C7B4BA1CD336DA006F5927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4D31CD336DA006F5927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4DE1CD336DA006F5927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7C7B4B41CD336DA006F5927 = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4BF1CD336DA006F5927 /* LQCurveView */,
+				D7C7B4D91CD336DA006F5927 /* LQCurveViewTests */,
+				D7C7B4E41CD336DA006F5927 /* LQCurveViewUITests */,
+				D7C7B4BE1CD336DA006F5927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C7B4BE1CD336DA006F5927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4BD1CD336DA006F5927 /* LQCurveView.app */,
+				D7C7B4D61CD336DA006F5927 /* LQCurveViewTests.xctest */,
+				D7C7B4E11CD336DA006F5927 /* LQCurveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C7B4BF1CD336DA006F5927 /* LQCurveView */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4F31CD33828006F5927 /* LQCurveView */,
+				D7C7B4C31CD336DA006F5927 /* AppDelegate.h */,
+				D7C7B4C41CD336DA006F5927 /* AppDelegate.m */,
+				D7C7B4C61CD336DA006F5927 /* ViewController.h */,
+				D7C7B4C71CD336DA006F5927 /* ViewController.m */,
+				D7C7B4C91CD336DA006F5927 /* Main.storyboard */,
+				D7C7B4CC1CD336DA006F5927 /* Assets.xcassets */,
+				D7C7B4CE1CD336DA006F5927 /* LaunchScreen.storyboard */,
+				D7C7B4D11CD336DA006F5927 /* Info.plist */,
+				D7C7B4C01CD336DA006F5927 /* Supporting Files */,
+			);
+			path = LQCurveView;
+			sourceTree = "<group>";
+		};
+		D7C7B4C01CD336DA006F5927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4C11CD336DA006F5927 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7C7B4D91CD336DA006F5927 /* LQCurveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4DA1CD336DA006F5927 /* LQCurveViewTests.m */,
+				D7C7B4DC1CD336DA006F5927 /* Info.plist */,
+			);
+			path = LQCurveViewTests;
+			sourceTree = "<group>";
+		};
+		D7C7B4E41CD336DA006F5927 /* LQCurveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4E51CD336DA006F5927 /* LQCurveViewUITests.m */,
+				D7C7B4E71CD336DA006F5927 /* Info.plist */,
+			);
+			path = LQCurveViewUITests;
+			sourceTree = "<group>";
+		};
+		D7C7B4F31CD33828006F5927 /* LQCurveView */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7B4F41CD33852006F5927 /* LQCurveItemView.h */,
+				D7C7B4F51CD33852006F5927 /* LQCurveItemView.m */,
+				D7C7B4F71CD33862006F5927 /* LQCurveMainView.h */,
+				D7C7B4F81CD33862006F5927 /* LQCurveMainView.m */,
+				D7C7B4FA1CD3388B006F5927 /* LQCurveMenuView.h */,
+				D7C7B4FB1CD3388B006F5927 /* LQCurveMenuView.m */,
+			);
+			path = LQCurveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C7B4BC1CD336DA006F5927 /* LQCurveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C7B4EA1CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveView" */;
+			buildPhases = (
+				D7C7B4B91CD336DA006F5927 /* Sources */,
+				D7C7B4BA1CD336DA006F5927 /* Frameworks */,
+				D7C7B4BB1CD336DA006F5927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQCurveView;
+			productName = LQCurveView;
+			productReference = D7C7B4BD1CD336DA006F5927 /* LQCurveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C7B4D51CD336DA006F5927 /* LQCurveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C7B4ED1CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveViewTests" */;
+			buildPhases = (
+				D7C7B4D21CD336DA006F5927 /* Sources */,
+				D7C7B4D31CD336DA006F5927 /* Frameworks */,
+				D7C7B4D41CD336DA006F5927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C7B4D81CD336DA006F5927 /* PBXTargetDependency */,
+			);
+			name = LQCurveViewTests;
+			productName = LQCurveViewTests;
+			productReference = D7C7B4D61CD336DA006F5927 /* LQCurveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7C7B4E01CD336DA006F5927 /* LQCurveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C7B4F01CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveViewUITests" */;
+			buildPhases = (
+				D7C7B4DD1CD336DA006F5927 /* Sources */,
+				D7C7B4DE1CD336DA006F5927 /* Frameworks */,
+				D7C7B4DF1CD336DA006F5927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C7B4E31CD336DA006F5927 /* PBXTargetDependency */,
+			);
+			name = LQCurveViewUITests;
+			productName = LQCurveViewUITests;
+			productReference = D7C7B4E11CD336DA006F5927 /* LQCurveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C7B4B51CD336DA006F5927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LiQuan;
+				TargetAttributes = {
+					D7C7B4BC1CD336DA006F5927 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SJ4R9XKZB5;
+					};
+					D7C7B4D51CD336DA006F5927 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SJ4R9XKZB5;
+						TestTargetID = D7C7B4BC1CD336DA006F5927;
+					};
+					D7C7B4E01CD336DA006F5927 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SJ4R9XKZB5;
+						TestTargetID = D7C7B4BC1CD336DA006F5927;
+					};
+				};
+			};
+			buildConfigurationList = D7C7B4B81CD336DA006F5927 /* Build configuration list for PBXProject "LQCurveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C7B4B41CD336DA006F5927;
+			productRefGroup = D7C7B4BE1CD336DA006F5927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C7B4BC1CD336DA006F5927 /* LQCurveView */,
+				D7C7B4D51CD336DA006F5927 /* LQCurveViewTests */,
+				D7C7B4E01CD336DA006F5927 /* LQCurveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C7B4BB1CD336DA006F5927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7B4D01CD336DA006F5927 /* LaunchScreen.storyboard in Resources */,
+				D7C7B4CD1CD336DA006F5927 /* Assets.xcassets in Resources */,
+				D7C7B4CB1CD336DA006F5927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4D41CD336DA006F5927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4DF1CD336DA006F5927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C7B4B91CD336DA006F5927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7B4F61CD33852006F5927 /* LQCurveItemView.m in Sources */,
+				D7C7B4C81CD336DA006F5927 /* ViewController.m in Sources */,
+				D7C7B4FC1CD3388B006F5927 /* LQCurveMenuView.m in Sources */,
+				D7C7B4F91CD33862006F5927 /* LQCurveMainView.m in Sources */,
+				D7C7B4C51CD336DA006F5927 /* AppDelegate.m in Sources */,
+				D7C7B4C21CD336DA006F5927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4D21CD336DA006F5927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7B4DB1CD336DA006F5927 /* LQCurveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7B4DD1CD336DA006F5927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7B4E61CD336DA006F5927 /* LQCurveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C7B4D81CD336DA006F5927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C7B4BC1CD336DA006F5927 /* LQCurveView */;
+			targetProxy = D7C7B4D71CD336DA006F5927 /* PBXContainerItemProxy */;
+		};
+		D7C7B4E31CD336DA006F5927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C7B4BC1CD336DA006F5927 /* LQCurveView */;
+			targetProxy = D7C7B4E21CD336DA006F5927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C7B4C91CD336DA006F5927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C7B4CA1CD336DA006F5927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C7B4CE1CD336DA006F5927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C7B4CF1CD336DA006F5927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C7B4E81CD336DA006F5927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C7B4E91CD336DA006F5927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C7B4EB1CD336DA006F5927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 806060447@qq.com (8TW7986Y6M)";
+				INFOPLIST_FILE = LQCurveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7C7B4EC1CD336DA006F5927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 806060447@qq.com (8TW7986Y6M)";
+				INFOPLIST_FILE = LQCurveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7C7B4EE1CD336DA006F5927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQCurveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQCurveView.app/LQCurveView";
+			};
+			name = Debug;
+		};
+		D7C7B4EF1CD336DA006F5927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQCurveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQCurveView.app/LQCurveView";
+			};
+			name = Release;
+		};
+		D7C7B4F11CD336DA006F5927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQCurveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQCurveView;
+			};
+			name = Debug;
+		};
+		D7C7B4F21CD336DA006F5927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQCurveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquan.www.LQCurveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQCurveView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C7B4B81CD336DA006F5927 /* Build configuration list for PBXProject "LQCurveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7B4E81CD336DA006F5927 /* Debug */,
+				D7C7B4E91CD336DA006F5927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C7B4EA1CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7B4EB1CD336DA006F5927 /* Debug */,
+				D7C7B4EC1CD336DA006F5927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7C7B4ED1CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7B4EE1CD336DA006F5927 /* Debug */,
+				D7C7B4EF1CD336DA006F5927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7C7B4F01CD336DA006F5927 /* Build configuration list for PBXNativeTarget "LQCurveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7B4F11CD336DA006F5927 /* Debug */,
+				D7C7B4F21CD336DA006F5927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7C7B4B51CD336DA006F5927 /* Project object */;
+}
